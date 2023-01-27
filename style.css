@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Anton';
+    src: url(../fonts/Anton-Regular.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 242, 255);
+    display: flex;
+    height: 100vh;
+}
+
+.part1{
+    width: 450px;
+    margin: 90px 0px 30px 40px;
+    align-items: center;
+    position: relative;
+    top: 55px;
+    bottom: 90px;
+}
+ .part1 h1{
+    font-family: 'Anton' , sans-serif;
+    color: rgb(66, 185, 218);
+    font-size: 50px;
+    margin: 0px;
+}
+.part1 p{
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    margin-right: 20px;
+    font-style:italic ;
+    position: relative;
+    top: 15px;
+    
+
+}
+.btn{
+    position: relative;
+    top: 30px;
+    background-color:  rgb(66, 185, 218) ;
+    border: solid  rgb(66, 185, 218);
+    padding: 10px 45px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    border-radius: 20px;
+}
+.btn:hover{
+    letter-spacing: 4px;
+    background-color: rgb(39, 122, 145);
+    border: solid rgb(39, 122, 145);
+}
+.part2{
+    width: 450px;
+    align-items: center;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    
+}
+.part21{
+    background-color: rgb(158, 105, 41);
+    padding: 30px 20px 150px 20px;
+    margin:0px;
+    width: 450px;
+    height: 180px;
+}
+.part21 h4{
+    color:rgb(254, 255, 255);
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+    
+}
+.part21 h1{
+    color: white;
+    font-family: 'Anton',sans-serif;
+    font-size: 100px;
+    margin: 0;
+}
+.part22{
+    background-color: rgb(62, 173, 203);
+    padding: 30px 20px 150px 20px;
+    margin:0px;
+    width: 450px;
+    height: 180px;
+}
+.part22 h4{
+    color:rgb(254, 255, 255);
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+.part22 p{
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    margin-right: 20px;
+    font-style:italic ;
+    position: relative;
+    top: 15px;
+    color: white;
+}
+.btn1{
+    position: relative;
+    top: 30px;
+    background-color:  rgb(255, 255, 255) ;
+    border: solid  rgb(255, 255, 255);
+    padding: 10px 45px;
+    color: rgb(62, 173, 203);
+    font-size: 15px;
+    letter-spacing: 3px;
+    border-radius: 25px;
+}
+.btn1:hover{
+    letter-spacing: 4px;
+    background-color: rgb(230, 241, 252);
+}
